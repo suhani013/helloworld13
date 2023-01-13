@@ -1,7 +1,25 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Heart)
+    basic.showLeds(`
+        . # . # .
+        . # . # .
+        . # # # .
+        . # . # .
+        . # . # .
+        `)
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.SmallHeart)
+    basic.showLeds(`
+        . # # # .
+        . . # . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
 })
-basic.showIcon(IconNames.Chessboard)
+basic.showLeds(`
+    # # . # #
+    # # # # #
+    # # # # #
+    . # # # .
+    . . # . .
+    `)
